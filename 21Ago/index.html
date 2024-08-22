@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>header</p>
+        </header>
+        <main class="columnas">
+            <h1 class="fira-sans-bold">Ciudad antigua</h1>
+            <p class="fira-sans-light">Una  ciudad antigua es una estructura palacial que se encuentra en los biomas de oscuridad profunda en la capa -51, que alberga cofres que contienen algunos objetos que no se pueden encontrar en ningún otro lugar.</p>
+            <p class="fira-sans-light">Una ciudad antigua presenta un palacio muy grande que se extiende a lo largo de la oscuridad profunda. El palacio está formado por largos pasillos con algunas alfombras hechas de lana azul, azul claro y cian o suelos de alfombras para evitar vibraciones, así como algunas ruinas más pequeñas a un lado de los pasillos principales, que contienen uno o dos cofres con botín, estos pasillos también envuelven o interconectan una buena variedad de estructuras distintas. La ciudad tiene estatuas y el centro presenta un marco que se asemeja a la cabeza de un warden, donde hay bloques de pizarra profunda reforzada, que es un material que no se puede obtener en el modo Supervivencia. El marco reposa sobre una inmensa base monolítica. Otros bloques únicos, como faroles y velas de almas que iluminan un poco el lugar, así como diferentes formas de pizarra profunda y de sculk se pueden encontrar aquí. La ciudad tiene una probabilidad de generarse de un 100% en un radio de 2000 bloques alrededor del spawn del mundo.</p>
+            <figure>
+                <img class="clip-otro" src="img/Ancient_City_SE.webp" alt="imagen principal">
+                <figcaption class="fira-sans-thin">Oscuridad profunda</figcaption>
+            </figure>
+            <h2 class="fira-sans-bold">Iluminación automática</h2>
+            <p class="">El centro de la ciudad dispone de un sistema de alumbrado automático único en su tipo, que reacciona a las vibraciones del jugador para encender una lámpara de redstone. Las lámparas tienen un sensor de sculk inundando, los cuáles al sentir una vibración, encenderán las lámparas por unos segundos.</p>
+            <img class="clip-me" src="img/Ancient_City_D.webp" alt="Vista vertical. La entrada está en la parte más baja de esta imágen.">
+            <figcaption class="fira-sans-thin">Vista vertical. La entrada está en la parte más baja de esta imágen.</figcaption>
+            <h3 class="fira-sans-bold">Circuitos de redstone</h3>
+            <p class="fira-sans-light"> Debajo del marco en el centro de la ciudad se encuentra una serie de sótanos ocultos con circuitos de redstone que se generan de forma natural.
+            La entrada secreta se encuentra en la base de la estructura, debajo del puente de madera entre el centro de la ciudad y la muralla. Hay una puerta de pistón controlada por un sensor de sculk en los circuitos de redstone del sótano.</p>
+
+           
+            <ul class="fira-sans-light">
+                <li> <strong> city_center_1 </strong> hay un bloque de pizarra profunda cincelado frente al marco. Hacer una vibración a su alrededor puede activar el sensor de sculk y luego abrir la puerta del pistón. También hay un extensor de pulso entre el sensor de sculk y la puerta del pistón, que hace que la puerta del pistón se cierre 180 ticks de juego después de que se desactiva el sensor de sculk.</li>
+
+                <li> <strong>El circuito de city_center_2: </strong> es similar al anterior, pero con un filtro de intensidad de señal. Solo las vibraciones con una frecuencia igual a 8 (interacciones con una criatura, impactos de proyectiles, comer, daño de entidades) pueden activar la puerta del pistón. La creación de estas vibraciones en el camino en el frente del marco en el centro de la ciudad activa la puerta.</li>
+    
+                <li> <strong>Para city_center_3: </strong> hacer una vibración en el camino frente al marco en el centro de la ciudad puede activar el sensor de sculk. Además, hay un biestable en T entre el sensor de sculk y la puerta del pistón. Después de que se activa el sensor de sculk, la puerta del pistón permanece abierta hasta que se activa nuevamente el sensor de sculk.</li>
+                <h4 class="fira-sans-bold">Bloques</h4>
+            </ul>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+</body>
+</html>
