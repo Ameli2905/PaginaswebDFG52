@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas fundacion.</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header class="borde head">
+            <h1>BIENVENIDOS A HUELLITAS AMOR SIN FRONTERAS</h1>
+            <p>Nosotros somos una asociación dedicada al rescate Animal; en su gran mayoría recatamos en situación de maltrato extremo, con discapacidad o pequeños que por razones específicas necesitan una ayuda más especializada, nosotros no somos un refugio más, emos luchado por formar un santuario para cada especie que es rescatada por nosotros, enfocándonos en sus necesidades básicas y especiales de cada miembro de la manda de huellitas amor sin fronteras.
+
+            Cansados del abuso y el maltrato animal hemos decidido dedicar nuestras vidas, invertir nuestro tiempo y recursos en formar un mundo mejor para cada ser vivo que ingresa a la manada, así que te invitamos a seguir reconstruyendo mundos y brindar segundas oportunidades.
+            </p>
+        </header>
+        <main class="borde main">
+            <h2>!VISITA NUESTRA TIENDA¡</h2>
+            <p>Acabamos de abrir Huellitas shop, visítanos y compra algo en la tienda. Recuerda que con cada compra ayudas a la manada de Huellitas Amor sin Fronteras.
+
+            Dale un vistazo a la tienda, estamos seguros que algo te puede llegar a interesar o gustar, en el caso de tener un problema puedes comunicarte con nosotros a nuestro WhatsApp.
+                
+            “NO HAY EXCUSAS PARA NO AYUDAR A LA MANADA.”</p>
+            <div id="my-div"></div>
+        </main>
+        <aside class="borde lado">
+            <p>Aside</p>
+        </aside>
+        <footer class="borde pie">
+            <p>Footer</p>
+        </footer>
+    </div>
+    <script src="js/vivus.js"></script>
+    <script>
+        new Vivus('my-div', {duration: 100, type: 'sync', file: 'img/svg.svg'},);
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.head', { delay: 250 });
+        ScrollReveal().reveal('.main', { delay: 500, scale: 0.80 });
+        ScrollReveal().reveal('.lado', { delay: 800, rotate: {x: 20, z:20}});
+        ScrollReveal().reveal('.pie', { delay: 1000, distance:'150%', origin:'bottom' });
+    </script>
+</body>
+</html>
